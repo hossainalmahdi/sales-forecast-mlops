@@ -193,4 +193,4 @@ In this setting, I set the MLflow's artifact path to point to a local path. Inte
 - Original Airflow's docker-compose file: https://airflow.apache.org/docs/apache-airflow/2.8.3/docker-compose.yaml
 
 # My notes
-If you have any comments, questions, or want to learn more, check out `notes/README.md`. I have included a lot of useful notes about how and why I made certain choices during development. Mostly, they cover tool selection, design choices.
+If you have any comments, questions, or want to learn more, check out `notes/README.md`.
