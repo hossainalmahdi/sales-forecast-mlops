@@ -1,5 +1,6 @@
 import os
-from sqlalchemy import create_engine, Column, Integer, String, DateTime
+
+from sqlalchemy import Column, DateTime, Integer, String, create_engine
 from sqlalchemy.orm import declarative_base
 
 SALES_TABLE_NAME = os.getenv("SALES_TABLE_NAME", "rossman_sales")
