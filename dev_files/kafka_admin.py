@@ -1,5 +1,6 @@
 # script to delete the kafka topic
 import os
+
 from kafka import KafkaAdminClient
 
 KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "sale_rossman_store")
